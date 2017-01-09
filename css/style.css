@@ -1,0 +1,224 @@
+body, html {
+  font-family: 'Lora', serif;
+  height: 100%;
+  width: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.wrapper {
+  opacity: 0.9;
+  position: relative;
+  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 90%; }
+  .wrapper .content-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    margin: 0 0 0 180px; }
+    .wrapper .content-wrapper .logo img {
+      width: 250px;
+      margin: 3em 0 1em 0; }
+    .wrapper .content-wrapper .sub-heading
+    h1 {
+      text-transform: uppercase;
+      font-size: 3.5em;
+      color: #FFFFFF; }
+    .wrapper .content-wrapper h2 {
+      color: #FFFFFF; }
+
+section .img-wrapper {
+  margin-top: -1em; }
+  section .img-wrapper img {
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1440px; }
+  section .img-wrapper .info-box {
+    background-color: #FFFFFF;
+    position: absolute;
+    text-align: left;
+    border: 1px solid #FFFFFF;
+    border-top: 7px solid #808080;
+    width: 50%;
+    color: #808080;
+    margin: -50% 0 0 3%;
+    padding: 0 2em 1em 2em; }
+    section .img-wrapper .info-box h3 {
+      font-size: 2em;
+      text-transform: uppercase; }
+    section .img-wrapper .info-box p {
+      font-size: 1.1em;
+      line-height: 2; }
+
+.img-wrapper .info-box-2 {
+  background-color: #FFFFFF;
+  position: absolute;
+  text-align: left;
+  border: 1px solid #FFFFFF;
+  border-top: 7px solid #808080;
+  width: 50%;
+  color: #808080;
+  margin: -25.3em 0 0 38em;
+  padding: 1em 2em; }
+  .img-wrapper .info-box-2 h3 {
+    font-size: 2em;
+    text-transform: uppercase; }
+  .img-wrapper .info-box-2 p {
+    font-size: 1.1em;
+    line-height: 2; }
+
+.img-wrapper .info-box-3 {
+  background-color: #FFFFFF;
+  position: absolute;
+  text-align: left;
+  border: 1px solid #FFFFFF;
+  border-top: 7px solid #808080;
+  width: 50%;
+  color: #808080;
+  margin: -40em 0 0 1em;
+  padding: 1em 2em 5em 2em; }
+  .img-wrapper .info-box-3 h3 {
+    font-size: 2em;
+    text-transform: uppercase; }
+  .img-wrapper .info-box-3 h5 {
+    font-size: 1.2em;
+    text-transform: uppercase; }
+  .img-wrapper .info-box-3 p {
+    font-size: 1.1em;
+    line-height: 2; }
+  .img-wrapper .info-box-3 ul li {
+    font-size: 1.1em;
+    line-height: 1.5; }
+
+.footer-wrapper {
+  margin-top: -1em; }
+  .footer-wrapper .about {
+    float: left;
+    width: 350px;
+    background-color: #E75F15;
+    padding-bottom: 25em;
+    height: 100%; }
+    .footer-wrapper .about .about-info {
+      padding: 1.5em 3em;
+      color: #FFFFFF; }
+      .footer-wrapper .about .about-info span {
+        font-size: 1em;
+        text-transform: uppercase; }
+      .footer-wrapper .about .about-info h3 {
+        text-transform: uppercase;
+        font-size: 1em; }
+      .footer-wrapper .about .about-info h6 {
+        font-size: .9em; }
+      .footer-wrapper .about .about-info .social {
+        padding-bottom: 2em; }
+        .footer-wrapper .about .about-info .social i {
+          color: #FFFFFF;
+          display: inline-block;
+          margin: 0 auto;
+          font-size: 3em;
+          margin-right: 0.5em; }
+    .footer-wrapper .about img {
+      width: 15em;
+      padding-top: 1em;
+      padding-bottom: 3em; }
+  .footer-wrapper .event {
+    float: left;
+    width: 350px;
+    padding-top: 4em;
+    padding-left: 1em;
+    padding-right: 1em; }
+    .footer-wrapper .event .event-info {
+      font-size: 1em;
+      line-height: 2;
+      text-align: center;
+      color: #808080; }
+      .footer-wrapper .event .event-info i {
+        float: none;
+        font-size: 2em;
+        color: #808080; }
+      .footer-wrapper .event .event-info span {
+        font-weight: 700; }
+    .footer-wrapper .event .button {
+      border: 3px solid #808080;
+      background: #FFFFFF;
+      width: 20em;
+      margin: 1em;
+      padding: 1em .2em;
+      font-weight: 700;
+      font-size: 1em;
+      transition: all 0.3s ease-in-out; }
+      .footer-wrapper .event .button a {
+        text-decoration: none;
+        color: #808080; }
+      .footer-wrapper .event .button:hover {
+        background: #808080; }
+        .footer-wrapper .event .button:hover a {
+          color: #FFFFFF; }
+  .footer-wrapper .form-wrapper {
+    height: 100%;
+    float: left;
+    margin-left: 3em; }
+    .footer-wrapper .form-wrapper .form-heading p {
+      line-height: 1.5;
+      color: #808080;
+      text-transform: uppercase;
+      font-size: 1.3em; }
+      .footer-wrapper .form-wrapper .form-heading p span {
+        font-weight: 700;
+        font-size: 2em; }
+    .footer-wrapper .form-wrapper .form {
+      color: #808080;
+      display: block;
+      font-size: 1em; }
+      .footer-wrapper .form-wrapper .form label {
+        font-weight: 700;
+        margin-bottom: 1em;
+        display: block; }
+      .footer-wrapper .form-wrapper .form label:before {
+        content: "\a";
+        white-space: pre; }
+      .footer-wrapper .form-wrapper .form label:after {
+        content: "\a";
+        white-space: pre; }
+      .footer-wrapper .form-wrapper .form input {
+        float: none;
+        display: block;
+        margin-bottom: 1em;
+        padding: .75em 4em;
+        border: 2px solid #808080;
+        width: 400px; }
+      .footer-wrapper .form-wrapper .form .button {
+        width: 15em;
+        border: 3px solid #E75F15;
+        padding: 1em 0;
+        background: #FFFFFF;
+        margin: 1em 0;
+        transition: all 0.3s ease-in-out; }
+        .footer-wrapper .form-wrapper .form .button a {
+          text-decoration: none;
+          color: #808080;
+          font-size: 1em;
+          font-weight: 700; }
+        .footer-wrapper .form-wrapper .form .button:hover {
+          background: #808080;
+          border: 3px solid #808080; }
+          .footer-wrapper .form-wrapper .form .button:hover a {
+            color: #FFFFFF; }
+
+/*# sourceMappingURL=style.css.map */

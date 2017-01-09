@@ -1,0 +1,311 @@
+$white: #FFFFFF;
+
+body, html{
+    font-family: 'Lora', serif;
+    height: 100%;
+    width: 100%;
+}
+body{
+        overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wrapper{
+    opacity: 0.9;
+    position: relative;
+    background-size: contain;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 90%;
+    .content-wrapper{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        margin: 0 0 0 180px;
+        .logo{
+            img{
+                width: 250px;
+                margin: 3em 0 1em 0;
+            }
+        }
+        .sub-heading
+        h1{
+            text-transform: uppercase;
+            font-size: 3.5em;
+            color: $white;
+        }
+        h2{
+            color: $white;
+        }
+    }
+}
+section{
+.img-wrapper{
+    margin-top: -1em;
+    img{
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1440px;
+    }
+    .info-box{
+        background-color: $white;
+        position: absolute;
+        text-align: left;
+        border: 1px solid $white;
+        border-top: 7px solid #808080;
+        width: 50%;
+        color: #808080;
+        margin: -50% 0 0 3%;
+        padding: 0 2em 1em 2em;
+        h3{
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 1.1em;
+            line-height: 2;
+        }
+    }
+}
+}
+
+.img-wrapper{
+    .info-box-2{
+        background-color: $white;
+        position: absolute;
+        text-align: left;
+        border: 1px solid $white;
+        border-top: 7px solid #808080;
+        width: 50%;
+        color: #808080;
+        margin: -25.3em 0 0 38em;
+        padding: 1em 2em;
+        h3{
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 1.1em;
+            line-height: 2;
+        }
+    }
+}
+
+.img-wrapper{
+    .info-box-3{
+        background-color: $white;
+        position: absolute;
+        text-align: left;
+        border: 1px solid $white;
+        border-top: 7px solid #808080;
+        width: 50%;
+        color: #808080;
+        margin: -40em 0 0 1em;
+        padding: 1em 2em 5em 2em;
+        h3{
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        h5{
+            font-size: 1.2em;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 1.1em;
+            line-height: 2;
+        }
+        ul li{
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+    }
+}
+
+.footer-wrapper{
+    margin-top: -1em;
+        .about{
+        float: left;
+        width: 350px;
+        background-color: #E75F15;
+        padding-bottom: 25em;
+        height: 100%;
+        .about-info{
+            padding: 1.5em 3em;
+            color: $white;
+            span{
+                font-size: 1em;
+                text-transform: uppercase;
+            }
+            h3{
+                text-transform: uppercase;
+                font-size: 1em;
+            }
+            h6{
+                font-size: .9em;
+            }
+            .social{
+                padding-bottom: 2em;
+                i{
+                color: $white;
+                display: inline-block;
+                margin: 0 auto;
+                font-size: 3em;
+                margin-right: 0.5em;
+                
+                 
+                }
+            }
+        }
+        img{
+            
+            width: 15em;
+            padding-top: 1em;
+            padding-bottom: 3em;
+        }
+    }
+    .event{
+        float: left;
+        width: 350px;
+        padding-top: 4em;
+        padding-left: 1em;
+        padding-right: 1em;
+        .event-info{
+            font-size: 1em;
+            line-height: 2;
+            text-align: center;
+            color: #808080;
+            
+            i{
+                float: none;
+                font-size: 2em;
+                color: #808080;
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+        
+        
+        .button{
+            border: 3px solid #808080;
+            
+            background: $white;
+            width: 20em;
+            margin: 1em;
+            padding: 1em .2em;
+            font-weight: 700;
+            font-size: 1em;
+            a{
+               text-decoration: none;
+                color: #808080;
+            }
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background: #808080;
+                a{
+                    color: $white;
+                }
+            }
+        }
+    }    
+    
+    .form-wrapper{
+        height: 100%;
+        float: left;
+        margin-left: 3em;
+        .form-heading{
+            p{
+                line-height: 1.5;
+                color: #808080;
+                text-transform: uppercase;
+                font-size: 1.3em;
+                span{
+                    font-weight: 700;
+                    font-size: 2em;
+                }
+            }
+            
+        }
+        
+        .form{
+            color: #808080;
+            display: block;
+            font-size: 1em;
+            label{
+                font-weight: 700;
+                margin-bottom: 1em;
+                display: block;
+            }
+            label:before {
+                content: "\a";
+                white-space: pre;
+            }
+            label:after {
+                content: "\a";
+                white-space: pre;
+            }
+            input{
+                float: none;
+                display: block;
+                margin-bottom: 1em;
+                padding: .75em 4em;
+                border:  2px solid #808080;
+                width: 400px;
+            }
+            .button{
+                width: 15em;
+                border: 3px solid #E75F15;
+                padding: 1em 0;
+                background: $white;
+                margin: 1em 0;
+                a{
+                text-decoration: none;
+                color: #808080;
+                font-size: 1em;
+                font-weight: 700;
+                
+                }
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    background: #808080;
+                    border: 3px solid #808080;
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+        
+        
+        
+    }  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

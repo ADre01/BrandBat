@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,700i" rel="stylesheet">  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>The Brand Bat</title>
+    </head>
+    <body ng-app="minmax" ng-controller="MinMaxCtrl as vm">
+        <header>
+            <div class="wrapper">
+               <img src="images/hero.jpg" alt="background">
+                <div class="content-wrapper">
+                <div class="logo">
+                    <img src="images/logo@2x.png" alt="logo">
+                </div>
+                <div class="sub-heading">
+                    <h1>brand strategy workshop</h1>
+                    <h2>by Paradox Design Studio</h2>
+                </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="img-wrapper">
+                <img src="images/bg-section2@2x.jpg" alt="background2">
+                <div class="info-box">
+                    <h3>Great brands are handcrafted from great stories.</h3>
+                    <p>They stand the test of time. And they have an emotional connection that transcends their product or service. Anyone who wants to build a great brand first has to understand who they are. When you can sculpt your authentic values and beliefs into a clear identity and voice, you'll have the foundation for an excellent brand.</p>
+                    <h3>The Workshop</h3>
+                    <p>The Brand Bat workshop is an interactive, half-day experience for you and your team to chisel away the layers and get to the core of who you really are. We’ll make sure everyone understands the basics of branding, why it’s important, and how to fine-tune your story.</p> 
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-wrapper">
+                <img src="images/bg-section3@2x.jpg" alt="background3">
+                <div class="info-box-2">
+                    <h3>Who's it for</h3>
+                    <p>You’ve probably heard the phrase, “If it’s worth doing, it’s worth doing right.” In our opinion, everyone can benefit from having a clear brand strategy. If you’ve decided that you’re passionate enough to pursue something, then it’s worth building an excellent brand. We think this applies to everyone - businesses, non-profits, and individuals - whether you’re just starting out or have been around for years. </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="img-wrapper">
+                <img src="images/bg-section4@2x.jpg" alt="background4">
+                <div class="info-box-3">
+                    <h3>What you'll learn</h3>
+                    <p>The Brand Bat workshop will provide the blueprints and set you up with the right tools to establish a brand strategy. We can’t tell you who you are, but we can help guide you through the process of nailing it down.</p>
+                    <h5>Here are a few things you can expect:</h5>
+                    <ul>
+                        <li>You’ll understand what a brand is (and isn’t) and how it affects your business</li>
+                        <li>An overview of the branding process</li>
+                        <li>Step-by-step instructions to craft your own brand strategy</li>
+                        <li>How to build consistency in your branding efforts</li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="footer-wrapper">
+                <div class="about">
+                   <div class="about-info">
+                    <h3>Presented by</h3>
+                    <img src="images/paradox@2x.png" alt="logo">
+                    <p><span>About Paradox<br><br></span>
+                    Paradox is a creative studio building websites and brands for clients that change the world. We are a team of creative designers, writers, and web developers. We have a passion and drive to make a difference in the world and in our community, and we choose to do this through design<br></p>
+                    <h3>connect with us</h3>
+                    <div class="social">
+                    <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-snapchat-square" aria-hidden="true"></i></a>
+                    </div>
+                    <h6>&copy;Paradox Design Studio
+                    954.881.8280 
+                    hola@paradoxcreates.com</h6>
+                </div>
+                </div>
+                
+                <div class="event">
+                    <div class="event-info">
+                        <a href="#"><i class="fa fa-tag" aria-hidden="true"></i></a>
+                        <p><span>Investment</span><br>$200 per person<br>Group pricing available on request.</p>
+                    </div>
+                    <div class="event-info">
+                        <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                        <p><span>8:30 am</span><br>Come early to mingle with other participants.</p>
+                    </div>
+                    <button class="button"><a href="#">SHARE ON TWITTER</a></button>
+                    <button class="button"><a href="#">SHARE ON FACEBOOK</a></button>
+                </div>
+                <div class="form-wrapper">
+                   <form class="form">
+                      <div class="form-heading">
+                          <p>register for the <br><span>brand bat workshop</span></p>
+                       </div>
+                    
+                       <label for="firstname">First Name</label>
+                       <input type="text" placeholder="First Name" name="firstname" ng-model="firstName">
+                       <label for="lastname">Last Name</label>
+                       <input type="text" placeholder="Last Name" name="lastname" ng-model="lastName">
+                       <label for="email">Email</label>
+                       <input type="email" placeholder="Email" name="email" ng-model="email">
+                       <label for="phone">Phone</label>
+                       <input type="number" placeholder="Phone" name="phone" ng-model="phone">
+                       <label for="companyname">Company Name</label>
+                       <input type="text" placeholder="Company Name" name="companyname" ng-model="companyName">
+                       <label for="jobtitle">Job Title</label>
+                       <input type="text" placeholder="Job Title" name="jobtitle">
+                       <label for="website">Website</label>
+                       <input type="text" placeholder="Website" name="website">
+                       <button class="button" ng-click="onSubmit()"><a href="#">SUBMIT</a></button>
+                   </form>
+                </div>
+                
+            </div>
+        </section>
+        
+    </body>    
+
+   
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
